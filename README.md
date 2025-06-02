@@ -1,23 +1,36 @@
-# AI_Web_Scrapper
-Web Scraper & Content Parser
-This project is a Streamlit-based web application that allows users to scrape the content of any website, view the cleaned DOM content, and extract specific information using natural language instructions powered by an Ollama LLM.
+<h1 align="center">👨‍💻 AI_Web_Scrapper</h1>
+<h3 align="center">A Streamlit-powered smart web scraper that extracts specific data using natural language and Ollama LLM</h3>
 
-Features
-  Web Scraping: Enter any URL and retrieve the full HTML content using Selenium and Edge WebDriver.
-  Content Cleaning: Automatically extracts and cleans the <body> content, removing scripts and styles for easier parsing.
-  Interactive UI: View and inspect the cleaned DOM content directly in the app.
-  Natural Language Parsing: Describe what you want to extract, and the app uses an LLM (via LangChain and Ollama) to parse and return only the requested data.
-  Chunked Processing: Handles large DOMs by splitting content into manageable chunks for efficient parsing.
+---
 
-Tech Stack
-  Python
-  Streamlit
-  Selenium
-  BeautifulSoup
-  LangChain & Ollama LLM
+- 💡 **What it does**: Scrapes any webpage, cleans the DOM, and extracts exactly what you ask using AI  
+- 🔧 **Built with**: Python, Streamlit, Selenium, BeautifulSoup, LangChain, Ollama  
+- 🧠 **Powered by**: Local LLM via Ollama & LangChain for intelligent content parsing  
+- 📦 **Handles large pages** by chunking content for efficient processing  
 
-Usage
-  Install dependencies from requirements.txt.
-  Download the correct Edge WebDriver (msedgedriver.exe) for your system.
-  Run the app with: streamlit run main.py
-  Enter a URL, scrape the site, and describe what you want to extract!
+---
+
+<h3 align="left">🛠️ Tech Stack:</h3>
+
+- 🐍 Python  
+- 🌐 Streamlit  
+- 🤖 Selenium + Edge WebDriver  
+- 🧹 BeautifulSoup (for DOM cleaning)  
+- 🧠 LangChain + Ollama LLM  
+
+---
+
+<h3 align="left">🚀 How to Use:</h3>
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/AI_Web_Scrapper.git
+cd AI_Web_Scrapper
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Download Edge WebDriver (msedgedriver.exe) and ensure driver and brower have same version
+
+# Run the app
+streamlit run main.py
